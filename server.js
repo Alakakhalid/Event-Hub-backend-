@@ -11,9 +11,9 @@ const connectMongose = require("./ConnectDatabase/ConnectDatabase");
 const nodemailerTransport = require("./NodemailerConfig/nodemailer");
 const userRouter = require("./Router/userRouter");
 const adminRouter = require("./Router/adminRouter");
-// require("nodemailer");
+// require("nodemailer");   
 // require("./NodemailerConfig/nodemailer")
-dotenv.config();   
+dotenv.config();         
 
 const port = process.env.PORT   
 app.use(express.json());
